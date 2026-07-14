@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
         <nav className="flex gap-20 justify-center bg-emerald-200 p-3">
           <ul><Link href="/" className="border-b-1">Home</Link></ul>
           <ul><Link href="/about" className="border-b-1">About</Link></ul>
-          <ul><Link href="/" className="border-b-1">Lorem</Link></ul>
+          <ul><Link href="/lorem" className="border-b-1">Lorem</Link></ul>
         </nav>
         {children}
       </body>
