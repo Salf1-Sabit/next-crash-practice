@@ -1,7 +1,16 @@
+import { notFound } from 'next/navigation';
 import React from 'react'
 
 export default async function BlogPage({ params }) {
   const { id } = await params;
+
+  if (
+      isNaN(id)
+      || parseInt(id) > 3
+      || parseInt(id) < 1
+    ) {
+    notFound();
+  }
     
   return (
     <article className='mt-10'>
