@@ -28,6 +28,7 @@ export default function RootLayout({ children }) {
           <ul><Link href="/" className="border-b-1">Home</Link></ul>
           <ul><Link href="/about" className="border-b-1">About</Link></ul>
           <ul><Link href="/blog" className="border-b-1">Blog</Link></ul>
+          <ul><Link href="/posts" className="border-b-1">Posts</Link></ul>
         </nav>
         {children}
       </body>
